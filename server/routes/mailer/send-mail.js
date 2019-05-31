@@ -10,7 +10,7 @@ router.post('/send-mail', function(req, res){
     // setup e-mail data with unicode symbols
     var mailOptions = {
         from: 'E-commerce NodeJS Store', // sender address
-        to: 'yaroslav0507@gmail.com', // list of receivers
+        to: 'amanmaurya2010@gmail.com', // list of receivers
         subject: 'Hello ?', // Subject line
         text: 'Hello world ?', // plaintext body
         html: '<b>Hello world ?</b>' // html body

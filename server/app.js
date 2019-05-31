@@ -38,7 +38,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-if(app.settings.env === 'development'){
+if(1){
     app.use(express.static(path.join(__dirname, "../dist")));
 } else {
     app.use(express.static(path.join(__dirname, "../release")));

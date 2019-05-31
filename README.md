@@ -15,7 +15,7 @@ Demo: [http://styleworks.herokuapp.com](http://styleworks.herokuapp.com/)
 Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
-$ git clone git@github.com:yaroslav0507/FullStackJS.git # or clone your own fork
+$ git clone git@github.com:amanmaurya/FullStackJS.git # or clone your own fork
 $ cd pet
 $ npm install
 $ npm start
